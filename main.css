@@ -1,0 +1,344 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+  overflow: scroll;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: #292f36;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 82%;
+  margin: 0 auto;
+}
+.header {
+  width: 1440px;
+  background-color: #181818;
+  margin: 0 auto;
+}
+.nav {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+.table {
+  display: flex;
+}
+.logo {
+  padding-right: 340px;
+}
+.table li:first-child {
+  padding-right: 56px;
+}
+.table a {
+  font-size: 15px;
+  padding-right: 32px;
+}
+.table a {
+  font-size: 15px;
+  line-height: 20px;
+  color: white;
+}
+.table button {
+  -webkit-writing-mode: horizontal-tb !important;
+  -webkit-appearance: button;
+  border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+  border-style: solid;
+  border-width: 1px;
+  padding: 1px 7px 2px;
+  text-rendering: auto;
+  color: initial;
+  display: inline-block;
+  text-align: start;
+  margin: 0em;
+  font: 400 11px system-ui;
+  background-color: white;
+  border-radius: 14px;
+  font-size: 16px;
+  padding-right: 17px;
+  padding-left: 17px;
+  padding-top: 9px;
+  padding-bottom: 13px;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: black;
+  font-family: "Poppins", sans-serif;
+}
+.section_top {
+  width: 1440px;
+  background: url(/IMAGE.png);
+  margin: 0 auto;
+}
+.head {
+  padding-top: 466px;
+}
+.block_head {
+  text-align: center;
+}
+.block_head h1 {
+  font-size: 54px;
+  line-height: 60px;
+  color: white;
+  padding-bottom: 18px;
+}
+.block_head p {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  color: #c0c0c0;
+}
+.block_head p:last-child {
+  padding-bottom: 50px;
+}
+.block_right {
+  text-align: right;
+  position: relative;
+}
+.block_right::before {
+  content: url(/Fill-1.png);
+  right: 74px;
+  top: 5px;
+  position: absolute;
+}
+
+.section_about {
+  width: 1440px;
+  background-color: black;
+  margin: 0 auto;
+  position: relative;
+}
+.text_potfolio {
+  padding-top: 112px;
+  text-align: center;
+}
+.text_potfolio h2 {
+  font-size: 40px;
+  line-height: 42px;
+  color: white;
+  padding-bottom: 15px;
+}
+.text_potfolio p {
+  font-size: 23px;
+  line-height: 30px;
+  color: #c0c0c0;
+  padding-bottom: 42px;
+}
+
+.block_img {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.img_1 {
+  padding-right: 16px;
+}
+.photo_text {
+  position: absolute;
+  top: 451px;
+  color: white;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  left: 30px;
+}
+.photo_text p:nth-child(2) {
+  font-size: 14px;
+  line-height: 20px;
+  color: #c0c0c0;
+  font-style: normal;
+  letter-spacing: 0.2px;
+}
+.photo_text_2 {
+  color: aqua;
+}
+
+.img_2 {
+  position: relative;
+}
+
+.photo_text_2 {
+  position: absolute;
+  bottom: 2px;
+  color: white;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  left: 30px;
+}
+.photo_text_2 p:nth-child(2) {
+  font-size: 14px;
+  line-height: 20px;
+  color: #c0c0c0;
+  font-style: normal;
+  letter-spacing: 0.2px;
+}
+
+.img_3 {
+  padding-right: 16px;
+}
+.photo_text_3 {
+  position: absolute;
+  bottom: 77px;
+  color: white;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  left: 30px;
+}
+
+.photo_text_3 p:last-child {
+  font-size: 14px;
+  line-height: 20px;
+  color: #c0c0c0;
+  font-style: normal;
+  letter-spacing: 0.2px;
+}
+
+.photo_text_4 {
+  position: absolute;
+  bottom: 77px;
+  color: white;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  left: 30px;
+}
+.img_4 {
+  position: relative;
+}
+.photo_text_4 p:last-child {
+  font-size: 14px;
+  line-height: 20px;
+  color: #c0c0c0;
+  font-style: normal;
+  letter-spacing: 0.2px;
+}
+
+.btn {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 0.6em;
+  color: #e74c3c;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  margin-left: -3px;
+}
+.btn:hover,
+.btn:focus {
+  color: #fff;
+  outline: 0;
+}
+
+/* .first {
+  -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+.first:hover {
+  box-shadow: 0 0 40px 40px black inset;
+} */
+
+.first:after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 0;
+  height: 100%;
+  background: #8e44ad;
+  z-index: -1;
+  -webkit-transition: width 150ms ease-in-out;
+  transition: width 150ms ease-in-out;
+}
+.first:hover {
+  color: #fff;
+}
+.first:hover:after {
+  width: 110%;
+}
+
+.first {
+  border-color: #8e44ad;
+  border-radius: 0;
+  color: #8e44ad;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  -webkit-transition: color 150ms ease-in-out;
+  transition: color 150ms ease-in-out;
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+    
+  }
+  /* Medium Devices, Desktops */
+  @media only screen and (max-width: 992px) {
+    .wrapper {
+        max-width: 10px;
+    }
+  }
+  /* Small Devices, Tablets */
+  @media only screen and (max-width: 768px) {
+    /* */
+  }
+  /* Extra Small Devices, Phones */
+  @media only screen and (max-width: 480px) {
+    /* */
+  }
+  /* Custom, iPhone Retina */
+  @media only screen and (max-width: 320px) {
+    /* */
